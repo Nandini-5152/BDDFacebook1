@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Facebook Loginlogout scenario",
+        "description": "",
+        "id": "facebook-loginlogout-feature;facebook-loginlogout-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 235334567,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.page.script.LoginLogoutScript.user_is_alredy_avilable_in_loginpag(LoginLogoutScript.java:35)\r\n\tat ✽.Given user is alredy avilable in loginpage(D:/Automation/BDDFacebook/src/test/java/com/page/featurefiles/LoginLogoutpage.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user is alredy avilable in loginpage",
+            "match": {
+              "location": "LoginLogoutScript.user_is_alredy_avilable_in_loginpag()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "title of loginpage is facebook",
+            "match": {
+              "location": "LoginLogoutScript.title_of_loginpage_is_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginLogoutScript.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginLogoutScript.User_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Loginlogout feature",
+    "description": "",
+    "id": "facebook-loginlogout-feature",
+    "keyword": "Feature",
+    "uri": "D:/Automation/BDDFacebook/src/test/java/com/page/featurefiles/LoginLogoutpage.feature"
+  }
+]
